@@ -58,7 +58,6 @@ MIT
 
 This project is being maintained by:
 - [Unly] Ambroise Dhenain ([Vadorequest](https://github.com/vadorequest)) **(active)**
-- [Contributor] Hugo Martin ([Demmonius](https://github.com/Demmonius)) **(active)**
 
 ---
 
