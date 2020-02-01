@@ -1,6 +1,8 @@
 <a href="https://unly.org"><img src="https://storage.googleapis.com/unly/images/ICON_UNLY.png" align="right" height="20" alt="Unly logo" title="Unly logo" /></a>
 # iso3166-1 [![Build Status][travis-image]][travis-url]
 [![Version][npm-version-image]][npm-version-url] [![License][npm-license-image]][npm-license-url] [![Downloads][npm-downloads-image]][npm-downloads-url] [![Deps][npm-deps-image]][npm-deps-url] [![DevDeps][npm-devdeps-image]][npm-devdeps-url]
+[![Maintainability](https://api.codeclimate.com/v1/badges/09a4296e39b18dc58fe5/maintainability)](https://codeclimate.com/github/UnlyEd/iso3166-1/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/09a4296e39b18dc58fe5/test_coverage)](https://codeclimate.com/github/UnlyEd/iso3166-1/test_coverage)
 [![Known Vulnerabilities](https://snyk.io/test/github/UnlyEd/iso3166-1/badge.svg?targetFile=package.json)](https://snyk.io/test/github/UnlyEd/iso3166-1?targetFile=package.json)
 
 The smallest, fastest, node module for ISO 3166-1 alpha 2/3 helper lookup/parser. Browserify/Webpack friendly.
