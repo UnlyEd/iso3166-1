@@ -10,13 +10,13 @@ The smallest, fastest, node module for ISO 3166-1 alpha 2/3 helper lookup/parser
 ## Install
 
 ```bash
-npm install --save iso3166-1
+npm install --save @unly/iso3166-1
 ```
 
 ## Usage
 
 ```
-var iso31661 = require('iso3166-1')
+var iso31661 = require('@unly/iso3166-1')
 iso31661.from('USA').to3()         // USA
 iso31661.from('USA').to2()         // US
 iso31661.from('US').to3()          // USA
@@ -26,20 +26,20 @@ iso31661.fromLocale('en-US').to2() // US
 ```
 
 ```
-var iso31661 = require('iso3166-1')
+var iso31661 = require('@unly/iso3166-1')
 iso31661.to2('USA') // US
 iso31661.to3('US')  // USA
 ```
 
 ```
-var iso31661 = require('iso3166-1')
+var iso31661 = require('@unly/iso3166-1')
 var locale2 = require('locale2')
 iso31661.fromLocale(locale2).to3() // USA
 iso31661.fromLocale(locale2).to2() // US
 ```
 
 ```
-import iso31661 from 'iso3166-1';
+import iso31661 from '@unly/iso3166-1';
 iso31661.is2('US')  // true
 iso31661.is3('USA') // true
 iso31661.is2('XX')  // false
@@ -79,16 +79,15 @@ Tech tips and tricks from our CTO on our [Medium page](https://medium.com/unly-o
 
 #TECHFORGOOD #EDUCATIONFORALL
 
-
-[npm-version-url]: https://www.npmjs.com/package/iso3166-1
-[npm-version-image]: https://img.shields.io/npm/v/iso3166-1.svg
-[npm-license-url]: https://github.com/moimikey/iso3166-1/blob/master/LICENSE
-[npm-license-image]: https://img.shields.io/npm/l/iso3166-1.svg
-[npm-downloads-url]: https://www.npmjs.com/package/iso3166-1
-[npm-downloads-image]: https://img.shields.io/npm/dm/iso3166-1.svg
-[npm-deps-url]: https://david-dm.org/moimikey/iso3166-1
-[npm-deps-image]: https://img.shields.io/david/moimikey/iso3166-1.svg
-[npm-devdeps-url]: https://david-dm.org/moimikey/iso3166-1
-[npm-devdeps-image]: https://img.shields.io/david/dev/moimikey/iso3166-1.svg
-[travis-url]: https://travis-ci.org/moimikey/iso3166-1
-[travis-image]: https://travis-ci.org/moimikey/iso3166-1.svg?branch=master
+[npm-version-url]: https://www.npmjs.com/package/@unly/iso3166-1
+[npm-version-image]: https://img.shields.io/npm/v/@unly/iso3166-1.svg
+[npm-license-url]: https://github.com/UnlyEd/iso3166-1/iso3166-1/blob/master/LICENSE
+[npm-license-image]: https://img.shields.io/npm/l/@unly/iso3166-1.svg
+[npm-downloads-url]: https://www.npmjs.com/package/@unly/iso3166-1
+[npm-downloads-image]: https://img.shields.io/npm/dm/@unly/iso3166-1.svg
+[npm-deps-url]: https://david-dm.org/UnlyEd/iso3166-1
+[npm-deps-image]: https://img.shields.io/david/UnlyEd/iso3166-1.svg
+[npm-devdeps-url]: https://david-dm.org/UnlyEd/iso3166-1
+[npm-devdeps-image]: https://img.shields.io/david/dev/UnlyEd/iso3166-1.svg
+[travis-url]: https://travis-ci.org/unly/iso3166-1
+[travis-image]: https://travis-ci.org/unly/iso3166-1.svg?branch=master
